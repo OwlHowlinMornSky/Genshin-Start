@@ -34,16 +34,17 @@ void func() {
 	cout << "Install path: " << installPath << endl;
 
 	fs::path gamePath;
-	if (!ohms::genshinStart::GetGamePath_Config(installPath, gamePath)) {
+	fs::path gameName;
+	if (!ohms::genshinStart::GetGamePath_Config(installPath, gamePath, gameName)) {
 		std::cout << "Error when read the config of the launcher." << std::endl;
 		return;
 	}
 	cout << "Game path: " << gamePath << endl;
+	cout << "Game name: " << gameName << endl;
 
 	Capture cap;
 	while (true) {
 		cv::Mat capture = cap.getScreenshot();
-		//cout << getAvg(capture) << endl;
 		if (getAvg(capture) >= 230.0) {
 			break;
 		}
@@ -51,9 +52,14 @@ void func() {
 	}
 
 	cout << "原神，启动！" << endl;
-	ohms::genshinStart::YuanShen_QiDong(gamePath.wstring());
 
-	cout << "Success" << endl;
+	if (ohms::genshinStart::YuanShen_QiDong(gamePath, gameName)) {
+		cout << "Success" << endl;
+	}
+	else {
+		cout << "Failed: 被绳之以法" << endl;
+	}
+
 	return;
 }
 

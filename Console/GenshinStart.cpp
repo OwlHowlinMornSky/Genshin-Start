@@ -10,7 +10,11 @@
 
 namespace ohms::genshinStart {
 
-bool YuanShen_QiDong(std::filesystem::path path) {
+bool YuanShen_QiDong(std::filesystem::path path, std::filesystem::path name) {
+	if (!std::filesystem::is_regular_file(path / name)) {
+		return false;
+	}
+
 	HWND myWhiteWnd = ohms::genshinStart::MyCreateWindow();
 
 	STARTUPINFOW si;
