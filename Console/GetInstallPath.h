@@ -1,9 +1,7 @@
 /*
-*                          Apache License
-*                    Version 2.0, January 2004
-* 
-*   Copyright (c) 2023  Tyler Parret True
-*     Tyler Parret True (OwlHowlinMornSky) <mysteryworldgod@outlook.com>
+*   Genshin, Start!
+*
+*   Copyright 2023 Tyler Parret True
 *
 *   Licensed under the Apache License, Version 2.0 (the "License");
 *   you may not use this file except in compliance with the License.
@@ -16,6 +14,9 @@
 *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 *   See the License for the specific language governing permissions and
 *   limitations under the License.
+*
+* @Authors
+*    Tyler Parret True <mysteryworldgod@outlook.com><https://github.com/OwlHowlinMornSky>
 */
 #pragma once
 
