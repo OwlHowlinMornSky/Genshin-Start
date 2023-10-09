@@ -22,8 +22,8 @@
 *   limitations under the License.
 *
 * @Authors
-*    之一Yo https://www.cnblogs.com/zhiyiYo/p/14800601.html
-*    Tyler Parret True <mysteryworldgod@outlook.com><https://github.com/OwlHowlinMornSky>
+*   之一Yo https://www.cnblogs.com/zhiyiYo/p/14800601.html
+*   Tyler Parret True <mysteryworldgod@outlook.com><https://github.com/OwlHowlinMornSky>
 */
 #pragma once
 

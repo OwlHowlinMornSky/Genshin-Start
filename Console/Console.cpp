@@ -16,7 +16,7 @@
 *   limitations under the License.
 * 
 * @Authors
-*    Tyler Parret True <mysteryworldgod@outlook.com><https://github.com/OwlHowlinMornSky>
+*   Tyler Parret True <mysteryworldgod@outlook.com><https://github.com/OwlHowlinMornSky>
 */
 #include <iostream>
 
