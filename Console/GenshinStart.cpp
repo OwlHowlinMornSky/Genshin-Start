@@ -45,7 +45,7 @@ bool YuanShen_QiDong(std::filesystem::path path, std::filesystem::path name) {
 
 	BOOL res;
 	res = CreateProcessW(
-		(path / "YuanShen.exe").c_str(),
+		(path / name).c_str(),
 		NULL,
 		NULL,
 		NULL,
